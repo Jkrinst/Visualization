@@ -1,0 +1,115 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f5f7fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #3498db;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+/* Chart Containers */
+.chart {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
+  padding: 25px;
+  transition: all 0.3s ease;
+}
+
+.chart:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 4px;
+  pointer-events: none;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 10;
+}
+
+/* Axes and Grid */
+.axis text {
+  font-size: 12px;
+  fill: #7f8c8d;
+}
+
+.axis-label {
+  font-size: 13px;
+  fill: #7f8c8d;
+}
+
+.grid line {
+  stroke: #ecf0f1;
+  stroke-dasharray: 3,3;
+}
+
+/* Bar Chart Specific */
+.bar {
+  transition: fill 0.2s;
+}
+
+.bar:hover {
+  opacity: 0.8;
+}
+
+/* Line Chart Specific */
+.line {
+  fill: none;
+  stroke-width: 3;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.dot {
+  stroke: white;
+  stroke-width: 1.5;
+  transition: r 0.2s;
+}
+
+.dot:hover {
+  r: 8;
+}
+
+/* Map Specific */
+.district {
+  stroke: white;
+  stroke-width: 0.5;
+  transition: all 0.3s;
+}
+
+.district:hover {
+  stroke-width: 1.5;
+}
+
+.district-label {
+  font-size: 10px;
+  text-anchor: middle;
+  pointer-events: none;
+}
