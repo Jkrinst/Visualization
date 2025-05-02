@@ -1,0 +1,10 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "name": "Bang Rak", "pm25": 70 },
+        "geometry": { "type": "Polygon", "coordinates": [] }
+      }
+    ]
+  }

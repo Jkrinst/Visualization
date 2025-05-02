@@ -1,0 +1,5 @@
+[
+  { "name": "Bangkok", "pm25": 65 },
+  { "name": "Chiang Mai", "pm25": 120 },
+  { "name": "Phuket", "pm25": 32 }
+]

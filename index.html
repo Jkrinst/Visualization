@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thailand Air Quality</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Thailand PM2.5 Analysis</h1>
+    
+    <div id="bar-chart" class="chart">
+      <h2>Average PM2.5 by City (µg/m³)</h2>
+      <svg width="650" height="450"></svg>
+    </div>
+    
+    <div id="line-chart" class="chart">
+      <h2>Monthly Trends in Bangkok</h2>
+      <svg width="650" height="450"></svg>
+    </div>
+    
+    <div id="geo-chart" class="chart">
+      <h2>Bangkok District Pollution</h2>
+      <svg width="650" height="450"></svg>
+    </div>
+  </div>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <!-- Load scripts in order -->
+  <script src="scripts/barchart.js"></script>
+  <script src="scripts/linechart.js"></script>
+  <script src="scripts/geochart.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

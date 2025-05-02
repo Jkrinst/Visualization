@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Bangkok Noi",
+          "pm25": 98
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[100.48, 13.75], [100.50, 13.75], [100.50, 13.77], [100.48, 13.77], [100.48, 13.75]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pathum Wan",
+          "pm25": 102
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[100.52, 13.74], [100.54, 13.74], [100.54, 13.76], [100.52, 13.76], [100.52, 13.74]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Chatuchak",
+          "pm25": 88
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[100.56, 13.81], [100.58, 13.81], [100.58, 13.83], [100.56, 13.83], [100.56, 13.81]]]
+        }
+      }
+    ]
+  }
+  
